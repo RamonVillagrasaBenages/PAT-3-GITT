@@ -1,4 +1,39 @@
 body{
-    background: red;
+    background: white;
 }
 
+.header{
+    background: blue;
+    color: white;
+    padding-top: 2.5%;
+    text-align: center;
+}
+
+h1{
+    padding-bottom: 2.5%;
+}
+
+.card-Pixar,
+.card-NG,
+.card-Marvel,
+.card-Disney,
+.card-SW{
+    width: 18%;
+    text-align: center;
+    border-color: black;
+    border-style: inset;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: relative;
+    float: left;
+}
+
+.card-NG > img,
+.card-SW > img,
+.card-Pixar > img,
+.card-Marvel > img,
+.card-Disney > img{
+    height: 15rem;
+}
