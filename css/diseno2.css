@@ -5,12 +5,9 @@ body{
 .header{
     background: blue;
     color: white;
-    padding-top: 2.5%;
+    padding: 1%;
+    margin-bottom: 2%;
     text-align: center;
-}
-
-h1{
-    padding-bottom: 2.5%;
 }
 
 .card-Pixar,
@@ -36,4 +33,18 @@ h1{
 .card-Marvel > img,
 .card-Disney > img{
     height: 15rem;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    height: 2rem;
+    color: blue;
+    margin-top: 31%;
+    border-color: blue;
+    border-style: inset;
+}
+.social-media{
+    align: center;
 }
