@@ -10,6 +10,13 @@ body{
     text-align: center;
 }
 
+.login{
+    float: right;
+    margin-bottom: 2%;
+    margin-left: -20%;
+    padding: 0.5%;
+}
+
 .card-Pixar,
 .card-NG,
 .card-Marvel,
