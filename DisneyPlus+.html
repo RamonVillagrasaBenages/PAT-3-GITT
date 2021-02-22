@@ -58,40 +58,58 @@
             </a>
         </div>
     </div>
+
     <div class="card-Marvel">
         <img src="accesorios/marvel-logo.ico" class="card-img-top" alt="Logo Marvel">
         <div class="card-body">
             <p class="card-text">Dive into all the exclusive content of the Marvel cinematic universe in a click</p>
-            <a href="https://www.marvel.com/" class="btn btn-primary" target="_blank">Avengers, assemble!</a>
+            <form class="d-flex" id="search-form-marvel">
+                <input id="search-input-marvel" class="form-control me-2" type="search" placeholder="Search film" aria-label="Search">
+                <button class="btn btn-primary" type="submit" data-bs-toggle="tooltip" data-bs-placement="right" title=""><span class="la la-search"></span>Search</button>
+            </form>
         </div>
     </div>
     <div class="card-SW">
         <img src="accesorios/SW-logo.ico" class="card-img-top" alt="Logo SW">
         <div class="card-body">
             <p class="card-text">Jump into hyperspace and discover new galaxies far beyond yours</p>
-            <a href="https://www.starwars.com/" class="btn btn-primary" target="_blank">This is the way</a>
+            <form class="d-flex" id="search-form-SW">
+                <input id="search-input-SW" class="form-control me-2" type="search" placeholder="Search film" aria-label="Search">
+                <button class="btn btn-primary" type="submit" data-bs-toggle="tooltip" data-bs-placement="right" title=""><span class="la la-search"></span>Search</button>
+            </form>
         </div>
     </div>
     <div class="card-Pixar">
         <img src="accesorios/Pixar-logo.jpg" class="card-img-top" alt="Logo Pixar">
         <div class="card-body">
             <p class="card-text">Do you want to get excited again like when you were a child? This is your place</p>
-            <a href="https://www.pixar.com/" class="btn btn-primary" target="_blank">Childhood throwback</a>
+            <form class="d-flex" id="search-form-pixar">
+                <input id="search-input-pixar" class="form-control me-2" type="search" placeholder="Search film" aria-label="Search">
+                <button class="btn btn-primary" type="submit" data-bs-toggle="tooltip" data-bs-placement="right" title=""><span class="la la-search"></span>Search</button>
+            </form>
         </div>
     </div>
     <div class="card-NG">
         <img src="accesorios/NG-logo.jpg" class="card-img-top" alt="Logo NG">
         <div class="card-body">
             <p class="card-text">Escape your day to day life and take a moment to disconnect while discovering new corners</p>
-            <a href="https://www.nationalgeographic.com/" class="btn btn-primary" target="_blank">Travel now!</a>
+            <form class="d-flex" id="search-form-NG">
+                <input id="search-input-NG" class="form-control me-2" type="search" placeholder="Search film" aria-label="Search">
+                <button class="btn btn-primary" type="submit" data-bs-toggle="tooltip" data-bs-placement="right" title=""><span class="la la-search"></span>Search</button>
+            </form>
         </div>
     </div>
     <div class="card-Disney">
         <img src="accesorios/WD-logo.jpg" class="card-img-top" alt="Logo Disney">
         <div class="card-body">
             <p class="card-text">Find out everything you need to know about Disney movies, live shows and musicals</p>
-            <a href="https://disney.es/" class="btn btn-primary" target="_blank">Welcome!</a>
+            <form class="d-flex" id="search-form-disney">
+                <input id="search-input-disney" class="form-control me-2" type="search" placeholder="Search film" aria-label="Search">
+                <button class="btn btn-primary" type="submit" data-bs-toggle="tooltip" data-bs-placement="right" title=""><span class="la la-search"></span>Search</button>
+            </form>
         </div>
+    </div>
+    <div class="row align-items" id="container-result">
     </div>
 </body>
 
@@ -105,4 +123,5 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
 </script>
+<script src="SearchResult.js"></script>
 </html>
